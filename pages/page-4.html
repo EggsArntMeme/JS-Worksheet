@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <title>JS Workpage | Page 4</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <script src="../js/page-4-dont-touch.js" defer></script>
+    <script src="../js/general.js" type="module" defer></script>
+    <script src="../js/page-4.js" defer></script>
+
+</head>
+
+
+
+<body>
+    <header>
+        <section>
+            <div class="reset">
+                <h1>Zacs JS</h1>
+                <p>homework webpage :3</p>
+                <p>version: <span id="version">1.0</span></p>
+            </div>
+            <p>page 4</p>
+            <img src="../img/Croissant plush Wizard.png" alt="My discord icon which is a Croissant plush wearing a wizard hat cause hes an evil wizard >:3">
+        </section>
+        
+    </header>
+    <div class="inner-container  pg-4">
+        <h2>If Statements</h2>
+        <p>conditional statements! <span class="italy">if you can handle it... hehe</span></p>
+        <ul class="flex">
+            <li>
+                <h3>What is an If Statement</h3>
+                <p>An if statement is a conditional statement, basically meaning, if condition is met (or is true) then do whatevers inside! If statements take a lot from just simple english sentance building, so its easier to understand. If the statement is getting too confusing, maybe its best to split it up or it might just be a complex question :/</p>
+            </li>
+            
+            <li>
+                <h3>How would you write it?</h3>
+                <p>as stated before, if statments are really simple to write, just needing an if at the beginning, your condition in round brackets and then squiggly brackets with the code we want to run if the condition is true! Now. There are key works and symbols you can use to change up how the if statement will work (although its all still 'if true')</p>
+            </li>
+
+            <li>
+                <h3>and, or, not!</h3>
+                <p>these words, 'and', 'or' and 'not' are the <span class="italy">special</span> words, first off is going to be not, as its the simplest. Not reverses the if statement, simply checking if the statement is NOT true, basically doing the reverse! </p>
+            </li>
+            <li>
+                <h3>Conditional Statements</h3>
+                <p>obviously there are multiple ways to actually write a check if something is true or not, so 9 times out of 10 will use symbols to compaire the value of a variable, 1 other time is when we know the value or return is a bool, if it is, we can just keep it by itself (we dont need to check if the bool (which is only ever true or false) is true or not)</p>
+            </li>
+            <li>
+                <h3>Comparison Symbols </h3>
+                <p>there are 6 total symbols, (but honestly half of them are the same) AND 4 INVOLVE MATH :D.... anyways. </p>
+            </li>
+            <li>
+                <h3> "==" </h3>
+                <p>First one is '==' (two equal signs) this checks if the two components are the exact same (although if it checks for exactly the same changes from language to language). [don't confuse this for a singular '=', two is to compare, one is to set!]</p>
+            </li>
+            <li>
+                <h3>"!="</h3>
+                <p>Just like the last one, this checks if the two components are the same, however, this time it runs through if its false and doesn't if its true! Just like the 'not' from before (however if we stack the two it would just be the same as "==") </p>
+            </li>
+            <li>
+                <h3>">" and "<"</h3>
+                <p>While it looks like two birds looking at the tasty and, this is the two next signs, that checks if the the value thats being compared is greater than or less than, just think of it like how math uses them! (did I lump them together cause I couldn't remember what name goes to which one?  ....I wont tell.) </p>
+            </li>
+            <li>
+                <h3>"=>" and "=<"</h3>
+                <p>I dont even have a joke for a face for the second one. BUT THESE ARE THE LAST TWO!! these just compare if the value is greater than or less than and equal to the value, honestly isn't that special in anyway lol</p>
+            </li>
+            <li>
+                <h3>Else Statements</h3>
+                <p>Else is added on just at the end of an if statement just outside of the squiggly bracket to go over "else / otherwise do this" you can also add on another if infront of the else to make something called an 'elif' statement, where "else if ___" to which you can also add on an else statement on the end of that too. Else doesn't take a condition, and its just a catch all for if statements.</p>
+            </li>
+        </ul>
+
+        <section class="center var-example example">
+            <h2>if (condition) { . . . }</h2>
+            <h4>and</h4>
+            <h2>if (condition) {. . .} else { . . . }</h2>
+
+        </section>    
+
+        <section class="problem-1">
+            <h2>NOW TO THE PROBLEM!!</h2>
+            <p>I want to learn more about these two values please make a bunch of statements about these numbers and display if its true or not [please open your page-4.js file]</p>
+            
+
+            <div class="problem-4">
+                <h3 id="==">Is <span id="first-value">3</span> == <span id="second-value">3</span>? <span id="equals"></span> </h3>
+                <h3 id="!=">Is <span id="first-value">3</span> != <span id="second-value">3</span>? <span id="not-equals"></span> </h3>
+                <h3 id=">">Is <span id="first-value" class="1">3</span> > <span id="second-value" class="1">3</span>? <span id="greater-than"></span> </h3>
+                <h3 id="<">Is <span id="first-value" class="2">3</span> < <span id="second-value" class="2">3</span>? <span id="less-than"></span> </h3>
+
+            </div>
+
+            <div class="center">
+                <button id="random-int" class="random-int">Rrefresh Numbers</button> 
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <div class="flex">
+            <div><a href="page-3.html">< Previous</a></div>
+            <div><a href="page-5.html">Next ></a></div>
+        </div>
+        <p class="italy center">if there are any issues or confusion please contact me on discord @ eggs42</p>
+
+    </footer>
+
+</body>
+</html>

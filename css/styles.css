@@ -141,6 +141,7 @@ footer {
 .problem-1 .center h3 {
     margin: 2rem 0;
 }
+
 .example h2:last-of-type {
     margin-bottom: 2rem;
 }
@@ -162,12 +163,26 @@ form {
     width: 100%;
     padding: 1rem;
 }
-.submit-btn {
+.submit-btn,
+.random-int {
     border-style: none;
     background-color: var(--dark-blue);
     color: var(--white);
     padding: 2rem;
     border-radius: 1rem;
+}
+.random-int{
+    text-align: center;
+}
+.random-int:hover {
+    background-color: var(--a-hover);
+}
+.problem-4 {
+    margin: 2rem 0;
+}
+.problem-4 h3 {
+    padding: 2rem 0;
+    font-size: 4rem;
 }
 
 @media screen and (min-width: 720px) {
@@ -192,9 +207,14 @@ form {
     ul li {
         width: calc((100% / 2) - (2rem / 2));
     }
-    ul li:last-of-type:not(.pg-1 ul li){
+    ul li:last-of-type:not(.pg-1 ul li):not(.pg-4 ul li){
         width: 100%;
     }
+    .pg-4 ul li:nth-child(5),
+    .pg-4 ul li:nth-child(10) {
+        width: 100%;    
+    }
+
 
     label {
         width: 100%;

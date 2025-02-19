@@ -1,14 +1,22 @@
 // do not change this file.
-
-function randomValue(selector) {
+function randomValue(parent = null, selector) {
     let value = Math.floor(Math.random() * 10);
-    let element = document.querySelector(selector);
-    element.innerText = value
+    if (parent == null) {
+        let element = document.querySelector(selector);
+        element.innerText = value
+
+    } else {
+        let element = parent.querySelector(selector);
+        element.innerText = value
+
+    }
+    
 }
 
-function generateRandomValues() {
-    randomValue("#first-value")
-    randomValue("#second-value")
+export function generateRandomValues(parent = null) {
+    randomValue(parent, '#first-value')
+    randomValue(parent, '#second-value')
 }
 
 generateRandomValues()
+

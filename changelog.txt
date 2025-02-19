@@ -12,3 +12,25 @@ css:
 js:
 - added general.js file to update versions faster, though is not useful / touched by users.
 - added page-3.js with comments for user to write in working on 'addEventListener', functions, and a new way to collect variable elements 
+
+
+
+
+1.2
+
+HTML: 
+- added page-4.html (IF STATEMENTS) page to pages folder
+- corrected wrong page number of js ask ( i just make fuky wuky ;-;)
+- added page-5.html (THE TEST) page to pages folder
+
+
+css: 
+- added new classes for the new pages
+
+js:
+- corrected SEVERAL mistakes, like leaving fully completed code out in the open ;-;
+- updated value-generator.js to accomidate children values
+- updated general.js version number
+- added page-4-dont-touch.js (just handles the random numbers, no need to touch)
+- added page-4.js with comments for users to write if and else statements, while encouraging independance (aka forcing them to do the other 3)
+- added page-5.html with breif comments explaining whats expected of them and a small step by step

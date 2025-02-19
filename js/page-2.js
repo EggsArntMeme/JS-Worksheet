@@ -10,13 +10,6 @@ please write this out below (actually writting it helps with memeory so don't ju
 
 
 
-function addTwoValues(value1, value2) {
-    value1 = parseInt(value1)
-    value2 = parseInt(value2)
-    let sum = value1 + value2;
-    return sum;
-}
-
 
 /*
 Next, lets make a function that adds the two values together using them as param's, and return the sum
