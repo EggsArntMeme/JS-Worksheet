@@ -1,0 +1,14 @@
+1.1
+
+HTML:
+- added page-3.html (ELEMENTS) page to pages folder
+- added js/general.js to each page to handle file version for now.
+- updated each pages a respective title\
+
+css:
+- corrected spacing in css for better useability
+- added styling for Form's
+
+js:
+- added general.js file to update versions faster, though is not useful / touched by users.
+- added page-3.js with comments for user to write in working on 'addEventListener', functions, and a new way to collect variable elements 

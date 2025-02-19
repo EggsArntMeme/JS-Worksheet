@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <title>JS Workpage | Page 3</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <script src="../js/page-3.js" defer></script>
+    <script src="../js/general.js" defer></script>
+
+</head>
+
+
+
+<body>
+    <header>
+        <section>
+            <div class="reset">
+                <h1>Zacs JS</h1>
+                <p>homework webpage :3</p>
+                <p>version: <span id="version">1.0</span></p>
+            </div>
+            <p>page 3</p>
+            <img src="../img/Croissant plush Wizard.png" alt="My discord icon which is a Croissant plush wearing a wizard hat cause hes an evil wizard >:3">
+        </section>
+        
+    </header>
+    <div class="inner-container">
+        <h2>Event</h2>
+        <p>Time for the part most of us got lost haha, Events!</p>
+        <ul class="flex">
+            <li>
+                <h3>What is an Event?</h3>
+                <p>Events are whats happening on your page, or what the user is currently doing. We can listen to events by using an<span class="italy"> eventListener</span>, which will look out for whenever the action is done, and use an action</p>
+            </li>
+            
+            <li>
+                <h3>How would you write it?</h3>
+                <p>Since Event listeners are similar to functions and take parameters! Specifically, it takes two, the action done, taken in a string, and a function. All actions that can be listened for are pre determined, so simply looking at the documentation for eventListeners can show you all the specific actions we can look out for!  [NOTE: you can check it out <strong><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element#events" target="_blank">Here</a></strong> :3</p>
+            </li>
+
+            <li>
+                <h3>Hold on. This sounds familiar</h3>
+                <p>If you thought this, you'd be correct! Event listeners are like a function in the sense that as soon as it's called, it runs specific code (pre determined by us), and actually to specify what code will run, we do use functions! Almost like an if statement listening for if (let's say) a click happens, then, run this function!</p>
+            </li>
+        </ul>
+
+        <section class="center func-example example">
+            <h2>[element].addEventListener('event', func)</h2>
+            <h4>or</h4>
+            <h2>[element].addEventListener('event', () => { })</h2>
+        </section>    
+
+        <section class="problem-1">
+            <h2>NOW TO THE PROBLEM!!</h2>
+            <p>Im curious about your favourite fruit! but forgot to add in the functionality to change the name in the box :( can you write out the functionality in the js file? [please open your page-1.js file]</p>
+
+
+            <form action="">
+                <label for="textbox">Favourite Fruit</label>
+                <input type="text" id="textbox" name="textbox" class="textbox">
+                <input type="submit" value="submit" class="submit-btn">
+            </form>
+            <h2>Your favourite fruit is: <span id="favFruit"></span></h2>
+        </section>
+
+    </div>
+    <footer>
+        <div class="flex">
+            <div><a href="page-2.html">< Previous</a></div>
+            <div><a href="#">Next ></a></div>
+        </div>
+        <p class="italy center">if there are any issues or confusion please contact me on discord @ eggs42</p>
+
+    </footer>
+
+</body>
+</html>

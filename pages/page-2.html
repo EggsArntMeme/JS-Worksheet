@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <title>JS Workpage | Page 2</title>
+
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <script src="../js/value-generator.js" defer></script>
+    <script src="../js/page-2.js" defer></script>
+    <script src="../js/general.js" defer></script>
+</head>
+
+
+
+<body>
+    <header>
+        <section>
+            <div class="reset">
+                <h1>Zacs JS</h1>
+                <p>homework webpage :3</p>
+                <p>version: <span id="version">1.0</span></p>
+            </div>
+            <p>page 2</p>
+            <img src="../img/Croissant plush Wizard.png" alt="My discord icon which is a Croissant plush wearing a wizard hat cause hes an evil wizard >:3">
+        </section>
+        
+    </header>
+    <div class="inner-container">
+        <h2>Functions</h2>
+        <p>next, we are going over functions.</p>
+        <ul class="flex">
+            <li>
+                <h3>What is a Function?</h3>
+                <p>A function is basically a set of instructions we set up that can be called on and used later! Normally, with other languages, you have to define or describe the function before you use it (thusly its common to see them at beguinning of scripts) However, JS doesn't care about that, so we can define our function whereever, as long as its not already within one, otherwise it becomes a local function</p>
+            </li>
+            <li>
+                <h3>What is a "Local Function" and what does it mean?</h3>
+                <p>the defining word <span class="italy">"local"</span> covers anything defined within a function (as well as other things, but we haven't gotten that far yet ;P) So if you were to set a variable within a function, that would be concidered a "local Variable" and can not be accessed in other functions or anywhere but in its origin function.</p>
+            </li>
+            <li>
+                <h3>So how do we get that value out?</h3>
+                <p>for that we use the <strong>'return'</strong> statement! a return statement will return whatever value was held within the variable or condition. using this we can get an output of a function and use it in calculations, functions, or just to simplify other code!</p>
+            </li>
+            <li>
+                <h3>How do I get a variable <span class="italy">in</span> a function?</h3>
+                <p>for that, we use whats called Parameters (or called param for short), simply put, its a variable that we're assuming the input of (let's say an integer) then we can do calculations using the assumed variables and return a sum of two numbers</p>
+            </li>
+            <li>
+                <h3>Well how do you actually write a Function</h3>
+                <p>There are 3 main ways to writing a function... However, I may or may not have forgotten what one of the ways is, so thus I'll just show off the two ways I do know. [Note: see how the first way looks just like we're setting a variable using const, like we're setting a variable and the value is actually just instructions!]</p>
+            </li>
+        </ul>
+
+        <section class="center func-example example">
+            <h2>const functionName(param) => { . . . }</h2>
+            <h4>or</h4>
+            <h2>function functionName(param) { . . . }</h2>
+        </section>    
+
+        <section class="problem-1">
+            <h2>NOW TO THE PROBLEM!!</h2>
+            <p>looks like I have an incomplete math equation... If only I wasn't so lazy I'd solve it myself, but alas... I am... Welp! time to make you do it using the powers of <span class="italy">math and functions</span> [please open your page-1.js file]</p>
+            <div class="center" id="blah">
+                <h3><span id="first-value">0</span> + <span id="second-value">0</span> = <span id="sum"></span></h3>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <div class="flex">
+            <div><a href="page-1.html">< Previous</a></div>
+            <div><a href="page-3.html">Next ></a></div>
+        </div>
+        <p class="italy center">if there are any issues or confusion please contact me on discord @ eggs42</p>
+    </footer>
+
+</body>
+</html>
