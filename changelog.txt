@@ -34,3 +34,16 @@ js:
 - added page-4-dont-touch.js (just handles the random numbers, no need to touch)
 - added page-4.js with comments for users to write if and else statements, while encouraging independance (aka forcing them to do the other 3)
 - added page-5.html with breif comments explaining whats expected of them and a small step by step
+
+
+
+1.3
+
+HTML:
+- updated wrong page numbers
+- added problem to page 7 (lists)
+- added page 8 (objects and JSON)
+
+js: 
+- updated page-7 (lists)
+- Added page-8 (objects)

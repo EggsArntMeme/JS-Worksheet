@@ -207,12 +207,14 @@ form {
     ul li {
         width: calc((100% / 2) - (2rem / 2));
     }
-    ul li:last-of-type:not(.pg-1 ul li):not(.pg-4 ul li){
+    ul li:last-of-type:not(.pg-1 ul li):not(.pg-7 ul li) {
         width: 100%;
     }
-    .pg-4 ul li:nth-child(5),
-    .pg-4 ul li:nth-child(10) {
+    .pg-4 ul li:nth-child(5n) {
         width: 100%;    
+    }
+    .pg-7 ul li:nth-child(3n) {
+        width: 100%;
     }
 
 

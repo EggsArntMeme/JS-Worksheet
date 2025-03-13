@@ -1,5 +1,5 @@
 
-const versionNum = "1.2"
+const versionNum = "1.3"
 
 
 function updateVersionNumber(versionNum) {
